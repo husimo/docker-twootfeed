@@ -1,4 +1,6 @@
 #!/bin/bash
+echo Git clone
+git clone https://github.com/SamR1/python-twootfeed.git
 echo API initialization
 cat <<EOF > /rootfs/initialize.py
 from mastodon import Mastodon
