@@ -1,0 +1,14 @@
+version: "3"
+services:
+  twootfeed:
+    build: .
+    ports:
+      # You can change to "1234:5000" if you don't want to use 5000.
+      - "5000:5000"
+    environment:
+      # URL of your mastodon instance
+      - API_BASE_URL=https://mamot.fr
+      # Email used by your account
+      - EMAIL=xxxx
+      # Password
+      - PASSWORD=xxxx
