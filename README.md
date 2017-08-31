@@ -1,6 +1,6 @@
 # husimo/twootfeed
 
-A simple python alpine container configured to run twootfeed script.
+A simple python alpine container configured to run [twootfeed](https://github.com/SamR1/python-twootfeed) script.
 
 You just have to set your parameters in `docker-compose.yml` : 
 
